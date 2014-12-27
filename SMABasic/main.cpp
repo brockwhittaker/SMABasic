@@ -22,7 +22,7 @@ int main() {
     cout << "Welcome to the simple moving average trading algorithm. Please enter your password now." << endl;
     string password;
     cin >> password;
-    if (password == "B.j.W.2013") {
+    if (password == "password") {
         cout << endl << "Thank you very much. Now please enter which SMA you would like to use. You can select from 5, 15, or 30." << endl;
         int sma_number;
         cin >> sma_number;
